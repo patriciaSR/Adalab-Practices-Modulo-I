@@ -1,0 +1,20 @@
+body {
+    background-color: #f3f4f5;  
+}
+
+h1 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+p {
+    color: #757575;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+ul, ol { 
+    color: red;
+    list-style-type: none;
+} 
