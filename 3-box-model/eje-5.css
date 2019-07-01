@@ -1,0 +1,12 @@
+.image {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  border: 10px solid blue;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+img {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,38 @@
+.container {
+  margin: 20px;
+}
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.text {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media all and (min-width:768px) {
+  .container {
+    margin-top: 30px 40px 20px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 20px;
+  }   
+}
+
+@media all and (min-width:1140px) {
+  .container {
+    margin-top: 190px auto 20px;
+    max-width: 750px;
+  }
+  .title {
+    font-size: 42px;
+  }
+  .text {
+    font-size: 24px;
+    line-height: 32px;
+  }   
+}

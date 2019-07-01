@@ -1,0 +1,7 @@
+.nav-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  margin-right: 12px;
+}

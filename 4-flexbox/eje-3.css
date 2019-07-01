@@ -1,0 +1,18 @@
+nav {
+    height: 100px;    
+    border: 1px solid black;
+}
+
+ul {
+    padding: 0 20px;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*Esto es para centrar el ul verticalmente dentro del nav que mide el 100% de la pantalla*/
+    max-width: 600px;
+    margin: 0 auto;
+
+
+}

@@ -1,0 +1,20 @@
+div {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+    background-color: aqua;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.grande {
+    width: 200px;
+    height: 200px;   
+}

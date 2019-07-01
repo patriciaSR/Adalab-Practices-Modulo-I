@@ -1,0 +1,63 @@
+body, h1, h2, h3, ul, p {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  background-color: green;
+}
+.header .header__nav {
+  background-color: grey;
+}
+.nav__list {
+  list-style: none;
+}
+.main {
+  background-color: yellow;
+}
+.aside {
+  background-color: green;
+  border-top: 14px solid grey;
+  border-bottom: 4px solid grey;
+}
+.main__image {
+  display: none;
+  height: 200px;
+  width: 100%;
+  background-color: orange;
+
+}
+
+@media all and (min-width: 480px) {
+  .container {
+    display: flex;
+  }
+  body {
+    background-color: grey;
+  }
+  .nav__list {
+    min-width: 300px;
+  }
+  .main__image {
+    display: block;
+    flex: 1; 
+    
+  }
+  .main__text {
+    flex: 1;  
+  }
+  .main__container {
+    display: flex;
+    padding: 20px;
+  }
+  .image {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .main {
+display: flex;
+margin: 20px;
+}
+}

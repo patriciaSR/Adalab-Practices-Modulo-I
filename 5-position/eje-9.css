@@ -1,0 +1,19 @@
+.code-list {
+  text-decoration: underline;
+}
+
+.tooltiptext {
+  display: none;
+  width: 400px;
+  height: 200px;
+  background-color: white;ç
+  position: absolute;
+  border-bottom: 1px dotted black;
+}
+.code{
+  cursor: pointer;
+}
+
+.code:hover .tooltiptext {
+  display: block;
+}

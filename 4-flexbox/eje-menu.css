@@ -1,0 +1,10 @@
+.container {
+  margin: 0;
+  padding: 0 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 100px;
+  align-items: center;
+}

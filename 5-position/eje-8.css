@@ -1,0 +1,28 @@
+.pdf-document {
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.pdf-document * {
+  margin: 5px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.pdf-logo {
+  color: white;
+  padding: 5px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.descarga {
+  margin: 15px;
+  text-align: center;
+}
+.pdf-link {
+  color: grey;
+  text-decoration: none;
+}
